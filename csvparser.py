@@ -9,7 +9,10 @@ with zipfile.ZipFile("sheet.zip") as z:
        # read the dataset
         df = pd.read_csv(f)
 
-#print(df[df.payload.str.contains('evil')])
+#search for string within specific column
+print(df[df.payload.str.contains('evil')])
+
+#search using regex within specific column
 print(df[df.payload.str.contains('re|evil', case=False, regex=True)])
 
 #python -W ignore test.py
