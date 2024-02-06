@@ -11,3 +11,5 @@ with zipfile.ZipFile("sheet.zip") as z:
 
 #print(df[df.payload.str.contains('evil')])
 print(df[df.payload.str.contains('re|evil', case=False, regex=True)])
+
+#python -W ignore test.py
