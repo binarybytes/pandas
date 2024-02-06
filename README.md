@@ -1,1 +1,1 @@
-![image](https://github.com/binarybytes/pandas/assets/31395956/8de67d68-8812-47f2-9634-e34590cbd1eb)
+![image](https://github.com/binarybytes/pandas/assets/31395956/a10b3ca6-50ea-43ba-a279-844d6c51a84e)
